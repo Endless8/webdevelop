@@ -1,0 +1,62 @@
+html {
+    background-color: lightslategrey;
+}
+
+.container {
+    width: 700px;
+    height: 400px;
+    margin: 15% auto;
+}
+
+.white-keys kbd {
+    display: inline-block;
+    border: 5px solid grey;
+    text-align: center;
+    background-color: white;
+    margin-left: -4px;
+    width: 80px;
+    height: 75px;
+    padding-top: 300px;
+    font-size: 40px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.black-keys kbd {
+    display: inline-block;
+    position: absolute;
+    bottom: 410px;
+    text-align: center;
+    background-color: black;
+    width: 65px;
+    height: 110px;
+    padding-top: 130px;
+    font-size: 40px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#w {
+    color: white;
+    position: absolute;
+    left: 655px;
+}
+
+#e {
+    color: white;
+    position: absolute;
+    left: 745px;
+}
+#t {
+    color: white;
+    position: absolute;
+    left: 925px;
+}
+#y {
+    color: white;
+    position: absolute;
+    left: 1015px;
+}
+#u {
+    color: white;
+    position: absolute;
+    left: 1105px;
+}
